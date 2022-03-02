@@ -1,0 +1,110 @@
+
+.brick {
+  float: left;
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 15px;
+  width: 425px;
+}
+
+header {
+  font-family: Helvetica, sans-serif, Arial;
+  font-weight: normal;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0 10px;
+  grid-column: span 12;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 10px;
+  width: 960px;
+  border: 4px solid #000000;
+  display:grid;
+  grid-template-columns: repeat(12 1fr);
+  grid-template-rows: 75px auto 75px;
+}
+
+main {
+  grid-column: span 9;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif, Arial;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 0;
+  clear: both;
+  grid-column: span 9;
+}
+
+nav {
+  font-family: Helvetica, sans-serif, Arial;
+  grid-column: span 3;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0;
+  margin: 10px;
+  width: 150px;
+}
+
+nav li a {
+  color: #ffffff;
+  background-color: #ff0000;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav li a:hover {
+  background-color: #a20000;
+  color: #ffffff;
+}
+
+p {
+  font-family: Georgia, Verdana;
+  font-weight: bold;
+  text-align: justify;
+}
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.nofloat {
+  clear: both;
+  font-weight: normal;
+}
+
+footer {
+  font-style: italic;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  padding: 0 10px;
+  grid-column: span 12;
+}
+
+.stubborn {
+  font-family: Verdana, Georgia;
+  font-weight: normal;
+  text-align: center;
+}
+
+body {
+  background-image: url(a62.jpg);
+}
